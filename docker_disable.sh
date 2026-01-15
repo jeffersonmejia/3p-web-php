@@ -9,3 +9,4 @@ sudo systemctl disable --now docker.socket
 
 
 sudo systemctl status docker.service --no-pager
+sudo docker compose down
