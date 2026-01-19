@@ -1,3 +1,11 @@
 <?php
-$title = 'Home';
-require __DIR__ . '/resources/home.template.php';
+$routes = require __DIR__ . '/routes/web.php';
+$requestUri = $_SERVER['REQUEST_URI'];
+$route = $routes[$requestUri] ?? null;
+
+if ($route) {
+	require __DIR__ . '/' . $route;
+} else {
+	http_response_code(404);
+	echo "404 not found";
+}
