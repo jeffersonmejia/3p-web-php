@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <nav class="w-full">
 	<ul class="flex flex-col sm:flex-row justify-center items-center gap-6 py-4">
 		<li>
