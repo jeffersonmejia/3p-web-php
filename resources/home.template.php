@@ -18,7 +18,7 @@ require __DIR__ . '/partials/header.php';
 
 		<article>
 			<h3 class="text-lg font-semibold text-gray-900 hover:text-gray-600">
-				<a href="#" target="_blank" rel="noopener noreferrer">
+				<a href="/post?id=<?= $post['id'] ?>" target="_blank" rel="noopener noreferrer">
 					<?= $post['title'] ?>
 				</a>
 			</h3>
