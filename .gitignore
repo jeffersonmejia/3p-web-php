@@ -29,4 +29,4 @@ phpmyadmin/
 .cache/
 
 # ddev
-.ddev
+.ddev/
