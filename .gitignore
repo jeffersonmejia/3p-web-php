@@ -27,3 +27,6 @@ phpmyadmin/
 
 # --- Cachés ---
 .cache/
+
+# ddev
+.ddev
